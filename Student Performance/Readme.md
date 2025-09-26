@@ -1,12 +1,12 @@
 # Student Performance Visualization Project
 
-## ???? Project Overview
+## Project Overview
 The project examines student academic performance trends based on an exam score and demographic data dataset.
 The objective is to exercise a three-step workflow — **ingest → process → analyze** — and generate understandable, reproducible visualizations.
 Five research questions are limited to specific domains of investigation where data cleaning, visualization, and interpretation provide the answer.
 
 ---
-## ???? Dataset
+## Dataset
 - **Source**: Students Performance dataset (CSV file provided).  
 - **Size**: ~1,000 records, each containing exam scores and student attributes.  
 - **Attributes**:
