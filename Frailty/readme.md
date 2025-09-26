@@ -52,6 +52,4 @@ Frailty is a qualitative condition (yes/no), while grip strength is measured in 
   → Lower grip strength values were more often linked with frailty = "Yes".  
 - **Summary statistics** (heights, weights, BMI, grip, etc.) are included in `reports/findings.md`.
 
----
 
-## Repository Structure
