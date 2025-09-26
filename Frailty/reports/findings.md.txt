@@ -1,13 +1,32 @@
-(                      mean      median        std
- Height_in        68.600000   68.450000   1.670662
- Weight_lb       131.900000  136.000000  14.231811
- Age_yr           32.500000   29.500000  12.860361
- Grip_kg          26.000000   27.000000   4.521553
- Height_m          1.742440    1.738630   0.042435
- Weight_kg        59.828834   61.688562   6.455441
- BMI              19.682000   19.185000   1.780972
- Frailty_binary    0.400000    0.000000   0.516398
- AgeGroup_30?45    0.300000    0.000000   0.483046
- AgeGroup_46?60    0.200000    0.000000   0.421637
-" AgeGroup_<30      0.500000    0.500000   0.527046,"
- -0.4758668672668007)
+# Findings Report
+
+## 1. Summary Statistics
+
+The table below shows the mean, median, and standard deviation for the numeric variables after preprocessing.
+
+| Variable        | Mean   | Median | Std Dev |
+|-----------------|--------|--------|---------|
+| Height_in       | 68.6   | 68.5   | 1.67    |
+| Weight_lb       | 131.9  | 136.0  | 14.23   |
+| Age_yr          | 32.5   | 29.5   | 12.86   |
+| Grip_kg         | 26.0   | 27.0   | 4.52    |
+| Height_m        | 1.74   | 1.74   | 0.04    |
+| Weight_kg       | 59.83  | 61.69  | 6.46    |
+| BMI             | 19.68  | 19.19  | 1.78    |
+| Frailty_binary  | 0.40   | 0.00   | 0.52    |
+
+---
+
+## 2. Correlation
+
+We calculated the Pearson correlation between grip strength (kg) and frailty (binary Y=1, N=0).  
+
+**Correlation coefficient (r): −0.48**
+
+---
+
+## 3. Interpretation
+
+From the summary, the average grip strength in this small sample was around 26 kg, with some variation across participants. The correlation value of about −0.48 suggests a **moderate negative relationship** between grip strength and frailty. This means that participants with weaker grip strength were more likely to be identified as frail.  
+
+Although this is consistent with what clinical research often reports, the dataset here is very small (n = 10), so the results should only be taken as an example of the workflow, not as strong evidence. Still, it demonstrates that grip strength can be a useful and simple indicator when studying frailty in health data.
