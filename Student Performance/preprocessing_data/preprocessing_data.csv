@@ -1,0 +1,18 @@
+Missing values before: gender                         0
+race/ethnicity                 0
+parental_level_of_education    0
+lunch                          0
+test_preparation_course        0
+math_score                     0
+reading_score                  0
+writing_score                  0
+dtype: int64
+Missing values after: gender                         0
+race/ethnicity                 0
+parental_level_of_education    0
+lunch                          0
+test_preparation_course        0
+math_score                     0
+reading_score                  0
+writing_score                  0
+dtype: int64
