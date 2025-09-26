@@ -53,6 +53,3 @@ Five of the questions of study were answered using visualizations:
 
 All the plots are **800×600 px, 300 DPI** with appropriate titles, axis labels, legends, and legible ticks.
 
----
-
-## ???? Repository Structure
